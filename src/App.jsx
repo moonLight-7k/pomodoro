@@ -85,7 +85,7 @@ function App() {
     <>
       <div className="app">
 
-        <h1 className="text-xl mt-16 p-2 text-center font-semibold text-[#297d83] sm:text-4xl">{title}</h1>
+        <h1 className="text-xl mt-12 sm:mt-16 p-2 text-center font-semibold text-[#297d83] sm:text-4xl">{title}</h1>
 
         <div
           className="sm:flex align-middle grid place-content-center sm:text-[10rem] text-[7rem] font-bold sm:font-normal text-[#1b575b] mt-16 mb-16">
@@ -105,7 +105,7 @@ function App() {
 
 
 
-        <div className="text-[24px] flex space-x-6 place-content-center mt-20 text-[#1b575b] ">
+        <div className="text-[24px] flex space-x-6 place-content-center mt-16 sm:mt-20 text-[#1b575b] ">
           {!isRunning && <button
             className='bg-[#f7fca0] p-2 rounded-md font-mono hover:bg-[#f4fa84] ' onClick={handelStart}>Start</button>}
           {isRunning && <button
